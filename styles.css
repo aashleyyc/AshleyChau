@@ -1,0 +1,114 @@
+body {
+    background-image: url("../images/desktop\ wallpaper_\ ocean.jpeg");
+    background-size: cover;
+}
+
+#testimonial-carousel {
+  width: 245px;
+  height: 245px;
+  margin: auto;
+  border: 5px solid #659EC7;
+}
+
+#testimonial-carousel .carousel-item,
+#testimonial-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+h1 { 
+    text-align: center;
+    font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;  
+  text-align: center;
+  padding-top: 10px;
+}
+
+h3 {
+    font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+p {
+    font-family: "Yrsa", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 20px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+
+.portfolio-img {
+    float: right;
+    border: 5px solid #659EC7;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #659EC7;
+    background-position: top;
+}
+ul li {
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: lightblue
+}
+
+.header {
+    font-size: 20px;
+}
+
+.highlight {
+  background-color: rgba(150, 200, 255, 0.4);
+}
+
+.cpr-img {
+  border-radius: 50%;
+  float: left;
+  width: 200px;
+  border: 5px solid #659EC7;
+  margin: 10px;
+}
+
+.coral-img {
+  border-radius: 50%;
+  float: right;
+  width: 200px;
+  border: 5px solid #659EC7;
+  margin: 10px;
+}
